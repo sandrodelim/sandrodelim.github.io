@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog de Análise de Negócios e TI por Sandro de Mattos de Lima. Veja artigos sobre ferramentas, carreira e gestão de processos.">
+  <meta property="og:title" content="Blog | Sandro de Mattos de Lima">
+  <meta property="og:description" content="Artigos profissionais para quem busca inteligência de negócios e tecnologia.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sandrodelim.github.io/blog/">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Blog | Sandro de Mattos de Lima</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="../" class="nav-logo">
+        <span class="logo-icon">&lt;/&gt;</span>
+        <span class="logo-text">Sandro<span class="logo-accent">.Lima</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="../about/" class="nav-link">Sobre</a></li>
+        <li><a href="./" class="nav-link">Blog</a></li>
+        <li><a href="../cv/" class="nav-link">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Blog</span>
+          <h2 class="section-title">Artigos profissionais</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="blog-toolbar">
+          <div class="search-box">
+            <input id="searchInput" type="search" placeholder="Buscar artigos, tags ou temas..." />
+          </div>
+          <div class="filter-group" aria-label="Filtrar categorias">
+            <button class="filter-button active" data-category="Todos">Todos</button>
+            <button class="filter-button" data-category="TI">TI</button>
+            <button class="filter-button" data-category="Análise de Negócios">Análise de Negócios</button>
+            <button class="filter-button" data-category="Ferramentas">Ferramentas</button>
+            <button class="filter-button" data-category="Carreira">Carreira</button>
+          </div>
+        </div>
+        <div id="postList" class="posts-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <p><strong>Sandro de Mattos de Lima</strong> | Blog de TI</p>
+        <p class="footer-note">Explore conteúdo pensado para analistas de negócios e profissionais de TI.</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/sandro-de-mattos-de-lima" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/sandrodelim" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="themeToggle" class="btn btn-outline" style="position: fixed; bottom: 1rem; right: 1rem;">Dark Mode</button>
+  <script src="../assets/data/posts.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

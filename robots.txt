@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sandrodelim.github.io/sitemap.xml

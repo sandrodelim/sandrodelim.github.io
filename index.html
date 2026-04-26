@@ -3,581 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Currículo Online de Sandro de Mattos de Lima - Analista de Sistemas | Desenvolvedor Full Stack com 18+ anos de experiência.">
-  <meta name="keywords" content="Sandro de Mattos de Lima, Desenvolvedor Full Stack, PHP, Laravel, JavaScript, TypeScript, TOTVS RM, Analista de Sistemas">
-  <meta name="author" content="Sandro de Mattos de Lima">
-  <meta property="og:title" content="Sandro de Mattos de Lima - Analista de Sistemas | Desenvolvedor Full Stack">
-  <meta property="og:description" content="18+ anos de experiência em TI. Especialista em PHP/Laravel, JavaScript/TypeScript, TOTVS RM e Arquitetura de APIs.">
-  <meta property="og:type" content="profile">
-  <meta property="og:url" content="https://sandrodelim.github.io">
+  <meta name="description" content="Sandro de Mattos de Lima - Analista de Sistemas. Transformando dados em decisões estratégicas com conteúdo, carreira e currículo profissional.">
+  <meta property="og:title" content="Sandro de Mattos de Lima | Analista de Sistemas">
+  <meta property="og:description" content="Blog profissional de Análise de Negócios em TI. Conheça cases, ferramentas e carreira para alavancar sua jornada.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sandrodelim.github.io/">
+  <meta property="og:image" content="https://sandrodelim.github.io/assets/images/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <title>Sandro de Mattos de Lima - Analista de Sistemas | Desenvolvedor Full Stack</title>
+  <title>Sandro de Mattos de Lima | Analista de Sistemas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231a56db'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='Inter, Arial, sans-serif' font-size='55' font-weight='700' fill='white'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <a href="#" class="nav-logo">
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="./" class="nav-logo">
         <span class="logo-icon">&lt;/&gt;</span>
-        <span class="logo-text">Sandro<span class="logo-accent">.dev</span></span>
+        <span class="logo-text">Sandro<span class="logo-accent">.Lima</span></span>
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
         <span class="hamburger"></span>
       </button>
       <ul class="nav-menu" id="navMenu">
-        <li><a href="#about" class="nav-link">Sobre</a></li>
-        <li><a href="#experience" class="nav-link">Experiência</a></li>
-        <li><a href="#skills" class="nav-link">Habilidades</a></li>
-        <li><a href="#education" class="nav-link">Educação</a></li>
-        <li><a href="#contact" class="nav-link">Contato</a></li>
+        <li><a href="./about/" class="nav-link">Sobre</a></li>
+        <li><a href="./blog/" class="nav-link">Blog</a></li>
+        <li><a href="./cv/" class="nav-link">CV</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <header class="hero" id="home">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <div class="hero-badge">
-        <i class="fas fa-circle-check"></i>
-        <span>Disponível para Oportunidades</span>
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>Autoridade em TI e Negócios</span>
+        </div>
+        <h1 class="hero-title">
+          <span>Analista de Sistemas</span>
+          <span class="hero-name">Sandro de Mattos de Lima</span>
+        </h1>
+        <p class="hero-subtitle">Transformando dados em decisões estratégicas com visão analítica, ferramentas modernas e processos de negócio.</p>
+        <p class="hero-tagline">Conteúdo profissional para quem busca autoridade em Análise de Negócios, TI e carreira estratégica.</p>
+        <div class="hero-cta">
+          <a href="./cv/" class="btn btn-primary"><i class="fas fa-file-alt"></i>Ver CV</a>
+          <a href="./blog/" class="btn btn-outline"><i class="fas fa-book-open"></i>Ler Blog</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/sandro-de-mattos-de-lima" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/sandrodelim" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-github"></i></a>
+        </div>
       </div>
-      <h1 class="hero-title">
-        <span class="hero-greeting">Olá, eu sou</span>
-        <span class="hero-name">Sandro de Mattos de Lima</span>
-      </h1>
-      <p class="hero-subtitle">Analista de Sistemas | Desenvolvedor Full Stack</p>
-      <p class="hero-tagline">18+ anos transformando desafios em soluções escaláveis com PHP/Laravel, JavaScript/TypeScript e arquitetura de software.</p>
-      <div class="hero-cta">
-        <a href="#contact" class="btn btn-primary">
-          <i class="fas fa-paper-plane"></i>
-          Entre em Contato
-        </a>
-        <a href="#experience" class="btn btn-outline">
-          <i class="fas fa-briefcase"></i>
-          Ver Experiência
-        </a>
-      </div>
-      <div class="hero-socials">
-        <a href="https://github.com/sandrodelim" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/sandro-de-mattos-de-lima" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="mailto:sandrodelim@hotmail.com" class="social-link" aria-label="Email">
-          <i class="fas fa-envelope"></i>
-        </a>
-        <a href="https://wa.me/5519998379473" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </div>
-    </div>
-    <div class="scroll-indicator">
-      <span>Role para explorar</span>
-      <i class="fas fa-chevron-down"></i>
-    </div>
-  </header>
+    </section>
 
-  <!-- About Section -->
-  <section class="section about" id="about">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Sobre Mim</span>
-        <h2 class="section-title">Quem Sou</h2>
-        <div class="section-line"></div>
-      </div>
-      <div class="about-grid">
-        <div class="about-card">
-          <div class="about-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <h3>Desenvolvimento</h3>
-          <p>Especialista em ecossistemas PHP/Laravel e JavaScript/TypeScript, com profundo domínio de frameworks modernos como React, Vue, Next.js e Node.js.</p>
+    <!-- <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Competências</span>
+          <h2 class="section-title">Habilidades estratégicas</h2>
+          <div class="section-line"></div>
         </div>
-        <div class="about-card">
-          <div class="about-icon">
-            <i class="fas fa-network-wired"></i>
-          </div>
-          <h3>Integração de Sistemas</h3>
-          <p>Expertise na customização e integração do ERP TOTVS RM, arquitetura de APIs, Web Services e automação de processos.</p>
-        </div>
-        <div class="about-card">
-          <div class="about-icon">
-            <i class="fas fa-server"></i>
-          </div>
-          <h3>Infraestrutura</h3>
-          <p>Forte background em infraestrutura de TI, Docker, DevOps, bancos de dados relacionais e alta disponibilidade.</p>
+        <div class="skills-grid">
+          <article class="skill-card"><h3>Análise de Negócios</h3><p>Mapeamento de requisitos, processos e impacto para resultados de alto valor.</p></article>
+          <article class="skill-card"><h3>SQL</h3><p>Consultas avançadas e análise de dados para decisões baseadas em evidências.</p></article>
+          <article class="skill-card"><h3>Power BI</h3><p>Dashboards estratégicos que tornam dados acessíveis e acionáveis.</p></article>
+          <article class="skill-card"><h3>Processos</h3><p>Otimização e design de fluxo com foco em eficiência e qualidade.</p></article>
+          <article class="skill-card"><h3>Requisitos</h3><p>Modelagem clara e documentação alinhada ao negócio e ao time de TI.</p></article>
+          <article class="skill-card"><h3>BPMN</h3><p>Modelos visuais de processos que conectam stakeholders e entregáveis.</p></article>
         </div>
       </div>
-      <div class="about-summary">
-        <p>Analista de Sistemas com <strong>sólida trajetória em desenvolvimento de software, integrações de sistemas e infraestrutura de TI</strong>. Perfil analítico focado em automação de processos, melhoria contínua e entrega de soluções escaláveis utilizando Clean Architecture e Clean Code.</p>
-      </div>
-    </div>
-  </section>
+    </section> -->
 
-  <!-- Stats Section -->
-  <section class="stats">
-    <div class="container">
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-number">18<span>+</span></div>
-          <div class="stat-label">Anos de Experiência</div>
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Competências</span>
+          <h2 class="section-title">Habilidades estratégicas</h2>
+          <div class="section-line"></div>
         </div>
-        <div class="stat-item">
-          <div class="stat-number">10<span>+</span></div>
-          <div class="stat-label">Empresas Atendidas</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">20<span>+</span></div>
-          <div class="stat-label">Tecnologias Dominadas</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">12<span>+</span></div>
-          <div class="stat-label">Certificações & Cursos</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience Section -->
-  <section class="section experience" id="experience">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Trajetória Profissional</span>
-        <h2 class="section-title">Experiência Profissional</h2>
-        <div class="section-line"></div>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-marker timeline-current">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Analista de Sistemas</h3>
-              <span class="timeline-badge">Atual</span>
-            </div>
-            <div class="timeline-company">Cervejaria Ashby</div>
-            <div class="timeline-date"><i class="far fa-calendar"></i> Jul/2025 — Atual</div>
-            <ul class="timeline-list">
-              <li>Responsável pelo desenvolvimento e manutenção de rotinas de integração entre o ERP <strong>TOTVS RM</strong> e plataformas externas via <strong>APIs e Web Services</strong>.</li>
-              <li>Desenvolvimento de sistemas internos utilizando <strong>C# e Angular</strong>, focando na otimização de processos operacionais.</li>
-              <li>Criação e gestão de procedimentos agendados para <strong>automação de fluxos de dados</strong>.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Programador Pleno</h3>
-            </div>
-            <div class="timeline-company">HTM Eletrônica</div>
-            <div class="timeline-date"><i class="far fa-calendar"></i> Jul/2022 — Jul/2025 <span class="timeline-duration">(3 anos)</span></div>
-            <ul class="timeline-list">
-              <li>Desenvolvimento de soluções Web completas utilizando stack <strong>PHP, Codeigniter, JavaScript</strong> e <strong>MySQL/PostgreSQL</strong>.</li>
-              <li>Implementação de ambientes conteinerizados com <strong>Docker</strong> e cache com <strong>Redis</strong>.</li>
-              <li>Gestão de versionamento de código com <strong>Git</strong>, garantindo a integridade e evolução dos projetos.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Analista de Suporte e Infraestrutura</h3>
-            </div>
-            <div class="timeline-company">ATOS / STEFANINI / ASSISTEC (DHL)</div>
-            <div class="timeline-date"><i class="far fa-calendar"></i> 2018 — 2022 <span class="timeline-duration">(4 anos)</span></div>
-            <ul class="timeline-list">
-              <li>Atuação estratégica no suporte <strong>N2</strong> e gestão de ativos de TI para grandes players (<strong>Grupo NC, DHL</strong>).</li>
-              <li>Manutenção de infraestrutura de redes, hardware e software, garantindo <strong>alta disponibilidade</strong> dos serviços.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Técnico de Infraestrutura Pleno</h3>
-            </div>
-            <div class="timeline-company">CAPGEMINI (ANS)</div>
-            <div class="timeline-date"><i class="far fa-calendar"></i> 2015 — 2018 <span class="timeline-duration">(3 anos)</span></div>
-            <ul class="timeline-list">
-              <li>Suporte especializado em hardware e software para a <strong>Agência Nacional de Saúde Suplementar (ANS)</strong>.</li>
-              <li>Controle de atualizações críticas e sustentação de <strong>sistemas governamentais</strong>.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Analista de Sistemas Pleno</h3>
-            </div>
-            <div class="timeline-company">BEMISA (Brasil Exploração Mineral)</div>
-            <div class="timeline-date"><i class="far fa-calendar"></i> 2014 <span class="timeline-duration">(1 ano)</span></div>
-            <ul class="timeline-list">
-              <li>Análise e desenvolvimento de soluções internas e suporte a portais em <strong>SharePoint</strong> e <strong>ProjectWise (GED)</strong>.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Analista de Sistemas Pleno</h3>
-            </div>
-            <div class="timeline-company">THERA SOLUTIONS</div>
-            <div class="timeline-date"><i class="far fa-calendar"></i> 2011 — 2014 <span class="timeline-duration">(3 anos)</span></div>
-            <ul class="timeline-list">
-              <li>Desenvolvimento de portais corporativos e intranets utilizando <strong>ASP.NET (C#)</strong> e <strong>SharePoint 2007/2010</strong>.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker">
-            <i class="fas fa-briefcase"></i>
-          </div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Analista Web / DBA</h3>
-            </div>
-            <div class="timeline-company">ASOEC (Universo)</div>
-            <div class="timeline-date"><i class="far fa-calendar"></i> 2007 — 2010 <span class="timeline-duration">(3 anos)</span></div>
-            <ul class="timeline-list">
-              <li>Administração de bancos de dados <strong>SQL Server</strong> e <strong>MySQL</strong> para sistemas de <strong>Ensino a Distância (EAD)</strong>.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="section skills" id="skills">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Competências</span>
-        <h2 class="section-title">Habilidades Técnicas</h2>
-        <div class="section-line"></div>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-category-icon">
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">
               <i class="fas fa-code"></i>
             </div>
-            <h3>Linguagens & Frameworks</h3>
+            <h3>Desenvolvimento</h3>
+            <p>Especialista em ecossistemas PHP/Laravel e JavaScript/TypeScript, com profundo domínio de frameworks modernos
+              como React, Vue, Next.js e Node.js.</p>
           </div>
-          <div class="skill-tags">
-            <span class="skill-tag skill-expert"><i class="fab fa-php"></i>PHP</span>
-            <span class="skill-tag skill-expert"><i class="fab fa-laravel"></i>Laravel</span>
-            <span class="skill-tag skill-expert"><i class="fab fa-js"></i>JavaScript</span>
-            <span class="skill-tag skill-expert"><i class="fas fa-code"></i>TypeScript</span>
-            <span class="skill-tag skill-advanced"><i class="fab fa-react"></i>React</span>
-            <span class="skill-tag skill-advanced"><i class="fab fa-vuejs"></i>Vue</span>
-            <span class="skill-tag skill-advanced"><i class="fab fa-react"></i>Next.js</span>
-            <span class="skill-tag skill-advanced"><i class="fab fa-vuejs"></i>Nuxt.js</span>
-            <span class="skill-tag skill-advanced"><i class="fab fa-node-js"></i>Node.js</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-fire"></i>Bun.js</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-cogs"></i>CodeIgniter</span>
-            <span class="skill-tag skill-advanced"><i class="fab fa-microsoft"></i>C# (.NET)</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-category-icon">
-              <i class="fas fa-database"></i>
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-network-wired"></i>
             </div>
-            <h3>Bancos de Dados</h3>
+            <h3>Integração de Sistemas</h3>
+            <p>Expertise na customização e integração do ERP TOTVS RM, arquitetura de APIs, Web Services e automação de
+              processos.</p>
           </div>
-          <div class="skill-tags">
-            <span class="skill-tag skill-expert"><i class="fas fa-server"></i>SQL Server</span>
-            <span class="skill-tag skill-expert"><i class="fas fa-database"></i>MySQL</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-database"></i>PostgreSQL</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-bolt"></i>Redis</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-database"></i>Oracle SQL</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-code"></i>PL/SQL</span>
-          </div>
-        </div>
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-category-icon">
-              <i class="fas fa-tools"></i>
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-server"></i>
             </div>
-            <h3>Ferramentas & DevOps</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag skill-advanced"><i class="fab fa-docker"></i>Docker</span>
-            <span class="skill-tag skill-expert"><i class="fab fa-git-alt"></i>Git</span>
-            <span class="skill-tag skill-expert"><i class="fas fa-plug"></i>APIs REST</span>
-            <span class="skill-tag skill-expert"><i class="fas fa-exchange-alt"></i>Web Services</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-clock"></i>Integrações Agendadas</span>
-            <span class="skill-tag skill-advanced"><i class="fab fa-microsoft"></i>SharePoint</span>
+            <h3>Infraestrutura</h3>
+            <p>Forte background em infraestrutura de TI, Docker, DevOps, bancos de dados relacionais e alta disponibilidade.
+            </p>
           </div>
         </div>
-        <div class="skill-category">
-          <div class="skill-category-header">
-            <div class="skill-category-icon">
-              <i class="fas fa-project-diagram"></i>
-            </div>
-            <h3>Plataformas & Arquitetura</h3>
-          </div>
-          <div class="skill-tags">
-            <span class="skill-tag skill-expert"><i class="fas fa-cubes"></i>TOTVS RM</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-layer-group"></i>Clean Architecture</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-broom"></i>Clean Code</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-sitemap"></i>Hexagonal Architecture</span>
-            <span class="skill-tag skill-advanced"><i class="fas fa-shield-alt"></i>ITIL Foundation</span>
-          </div>
-        </div>
+        <!-- <div class="about-summary">
+          <p>Analista de Sistemas com <strong>sólida trajetória em desenvolvimento de software, integrações de sistemas e
+              infraestrutura de TI</strong>. Perfil analítico focado em automação de processos, melhoria contínua e entrega
+            de soluções escaláveis utilizando Clean Architecture e Clean Code.</p>
+        </div> -->
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Education Section -->
-  <section class="section education" id="education">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Formação Acadêmica</span>
-        <h2 class="section-title">Educação & Certificações</h2>
-        <div class="section-line"></div>
-      </div>
-      <div class="education-grid">
-        <div class="education-card education-degree">
-          <div class="education-icon">
-            <i class="fas fa-graduation-cap"></i>
-          </div>
-          <div class="education-level">Pós-graduação</div>
-          <h3 class="education-title">Gestão Estratégica de TI</h3>
-          <div class="education-institution"><i class="fas fa-university"></i>IFSP</div>
+
+
+    <!-- <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Certificações</span>
+          <h2 class="section-title">Formação e credibilidade</h2>
+          <div class="section-line"></div>
         </div>
-        <div class="education-card education-degree">
-          <div class="education-icon">
-            <i class="fas fa-user-graduate"></i>
-          </div>
-          <div class="education-level">Graduação</div>
-          <h3 class="education-title">Análise e Desenvolvimento de Sistemas</h3>
-          <div class="education-institution"><i class="fas fa-university"></i>Universidade Estácio de Sá</div>
-        </div>
-        <div class="education-card education-technical">
-          <div class="education-icon">
-            <i class="fas fa-laptop-code"></i>
-          </div>
-          <div class="education-level">Técnico</div>
-          <h3 class="education-title">Processamento de Dados</h3>
-          <div class="education-institution"><i class="fas fa-university"></i>IBA Wakigawa</div>
-        </div>
-        <div class="education-card education-technical">
-          <div class="education-icon">
-            <i class="fas fa-cog"></i>
-          </div>
-          <div class="education-level">Técnico</div>
-          <h3 class="education-title">Eletromecânica</h3>
-          <div class="education-institution"><i class="fas fa-university"></i>ETE Ferreira Viana</div>
-        </div>
-      </div>
-      <div class="certifications">
-        <h3 class="certifications-title">
-          <i class="fas fa-certificate"></i>
-          Certificações e Cursos Relevantes
-        </h3>
         <div class="certifications-grid">
-          <div class="certification-group">
-            <h4><i class="fas fa-sitemap"></i>Arquitetura</h4>
-            <ul>
-              <li><i class="fas fa-check-circle"></i>Clean Code (Branas)</li>
-              <li><i class="fas fa-check-circle"></i>Clean Architecture (Branas)</li>
-            </ul>
-          </div>
-          <div class="certification-group">
-            <h4><i class="fas fa-code"></i>Desenvolvimento</h4>
-            <ul>
-              <li><i class="fas fa-check-circle"></i>Formação Node.js, Express & TypeScript (Alura)</li>
-              <li><i class="fas fa-check-circle"></i>Next.js & React (Cod3r)</li>
-              <li><i class="fas fa-check-circle"></i>Laravel (B7web)</li>
-            </ul>
-          </div>
-          <div class="certification-group">
-            <h4><i class="fas fa-database"></i>Dados</h4>
-            <ul>
-              <li><i class="fas fa-check-circle"></i>Oracle SQL e PL/SQL</li>
-              <li><i class="fas fa-check-circle"></i>MCITP SQL Server</li>
-              <li><i class="fas fa-check-circle"></i>MCSA Windows Server</li>
-            </ul>
-          </div>
-          <div class="certification-group">
-            <h4><i class="fas fa-clipboard-check"></i>Gestão</h4>
-            <ul>
-              <li><i class="fas fa-check-circle"></i>Certificação ITIL Foundation</li>
-            </ul>
-          </div>
-          <div class="certification-group">
-            <h4><i class="fab fa-microsoft"></i>Microsoft</h4>
-            <ul>
-              <li><i class="fas fa-check-circle"></i>Software Development Fundamentals (C#)</li>
-              <li><i class="fas fa-check-circle"></i>SharePoint Application Development</li>
-            </ul>
-          </div>
-          <div class="certification-group">
-            <h4><i class="fas fa-shield-alt"></i>Segurança</h4>
-            <ul>
-              <li><i class="fas fa-check-circle"></i>Cisco Network Defense</li>
-              <li><i class="fas fa-check-circle"></i>AWS Cloud Security Foundations</li>
-            </ul>
-          </div>
+          <article class="certification-card"><h3>Certified Business Analyst</h3><p>Metodologias e práticas modernas para apoiar decisões empresariais.</p></article>
+          <article class="certification-card"><h3>Power BI Advanced</h3><p>Criação de relatórios e dashboards estratégicos com insights visuais.</p></article>
+          <article class="certification-card"><h3>SQL Data Analytics</h3><p>Domínio em consultas e extração de informações para análise confiável.</p></article>
         </div>
       </div>
-    </div>
-  </section>
+    </section> -->
 
-  <!-- Languages Section -->
-  <section class="section languages">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Comunicação</span>
-        <h2 class="section-title">Idiomas</h2>
-        <div class="section-line"></div>
-      </div>
-      <div class="language-card">
-        <div class="language-flag">🇺🇸</div>
-        <div class="language-info">
-          <h3>Inglês</h3>
-          <span class="language-level">Intermediário</span>
-          <p>Leitura técnica e conversação básica</p>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Publicações</span>
+          <h2 class="section-title">Posts recentes</h2>
+          <div class="section-line"></div>
         </div>
-        <div class="language-progress">
-          <div class="progress-bar">
-            <div class="progress-fill" style="width: 60%;"></div>
-          </div>
-          <span>60%</span>
-        </div>
+        <div id="recentPosts" class="posts-grid"></div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- Contact Section -->
-  <section class="section contact" id="contact">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Vamos Conversar</span>
-        <h2 class="section-title">Entre em Contato</h2>
-        <div class="section-line"></div>
-      </div>
-      <div class="contact-grid">
-        <div class="contact-info">
-          <p class="contact-text">Estou aberto a oportunidades e colaborações. Se você busca um profissional com visão estratégica de TI, expertise em desenvolvimento Full Stack e integração de sistemas, vamos conversar!</p>
-          <div class="contact-items">
-            <a href="mailto:sandrodelim@hotmail.com" class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="contact-details">
-                <span class="contact-label">Email</span>
-                <span class="contact-value">sandrodelim@****.com</span>
-              </div>
-            </a>
-            <a href="https://wa.me/5519998379473" target="_blank" rel="noopener noreferrer" class="contact-item">
-              <div class="contact-icon">
-                <i class="fab fa-whatsapp"></i>
-              </div>
-              <div class="contact-details">
-                <span class="contact-label">Telefone / WhatsApp</span>
-                <span class="contact-value">(19) ****-****</span>
-              </div>
-            </a>
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="contact-details">
-                <span class="contact-label">Localização</span>
-                <span class="contact-value">Amparo, SP — Brasil</span>
-              </div>
-            </div>
-          </div>
-          <div class="contact-socials">
-            <a href="https://github.com/sandrodelim" target="_blank" rel="noopener noreferrer" class="contact-social" aria-label="GitHub">
-              <i class="fab fa-github"></i>
-              <span>GitHub</span>
-            </a>
-            <a href="https://www.linkedin.com/in/sandro-de-mattos-de-lima" target="_blank" rel="noopener noreferrer" class="contact-social" aria-label="LinkedIn">
-              <i class="fab fa-linkedin-in"></i>
-              <span>LinkedIn</span>
-            </a>
-            <a href="mailto:sandrodelim@hotmail.com" class="contact-social" aria-label="Email">
-              <i class="fas fa-envelope"></i>
-              <span>Email</span>
-            </a>
-            <a href="https://wa.me/5519998379473" target="_blank" rel="noopener noreferrer" class="contact-social" aria-label="WhatsApp">
-              <i class="fab fa-whatsapp"></i>
-              <span>WhatsApp</span>
-            </a>
-          </div>
-        </div>
-        <div class="contact-card">
-          <div class="contact-card-icon">
-            <i class="fas fa-handshake"></i>
-          </div>
-          <h3>Disponível para Oportunidades</h3>
-          <p>Aberto a propostas de trabalho, freelas e projetos colaborativos nas áreas de desenvolvimento, integração de sistemas e infraestrutura.</p>
-          <a href="mailto:sandrodelim@hotmail.com?subject=Proposta%20de%20Oportunidade" class="btn btn-primary btn-full">
-            <i class="fas fa-paper-plane"></i>
-            Enviar Proposta
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <span class="logo-icon">&lt;/&gt;</span>
-          <span class="footer-name">Sandro de Mattos de Lima</span>
-        </div>
-        <p class="footer-tagline">Analista de Sistemas | Desenvolvedor Full Stack</p>
-        <div class="footer-socials">
-          <a href="https://github.com/sandrodelim" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/sandro-de-mattos-de-lima" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="mailto:sandrodelim@hotmail.com" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-          <a href="https://wa.me/5519998379473" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-        </div>
+    <div class="container footer-content">
+      <div>
+        <p><strong>Sandro de Mattos de Lima</strong> | Analista de Sistemas</p>
+        <p class="footer-note">Conteúdo criado para construir autoridade em Análise de Negócios e TI.</p>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Sandro de Mattos de Lima. Todos os direitos reservados.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/sandro-de-mattos-de-lima" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/sandrodelim" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-github"></i></a>
       </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <button id="themeToggle" class="btn btn-outline" style="position: fixed; bottom: 1rem; right: 1rem;">Dark Mode</button>
+  <script src="assets/data/posts.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
