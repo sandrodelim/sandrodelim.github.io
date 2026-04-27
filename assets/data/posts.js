@@ -16,5 +16,14 @@ window.blogPosts = [
     "tags": ["Ferramentas","Power BI","SQL","Modelagem"],
     "summary": "Conheça as ferramentas mais usadas para modelagem, documentação, análise de dados, prototipação e produtividade para analistas de negócios.",
     "url": "blog/ferramentas-essenciais-analise-de-negocios.html"
+  },
+  {
+    "title": "Fundamentos para Desenvolvimento de Sistemas de Longa Vida",
+    "slug": "fundamentos-para-desenvolvimento-de-sistemas-de-longa-vida",
+    "date": "27 de abril de 2026",
+    "category": "Arquitetura de Software",
+    "tags": ["TI", "Arquitetura", "Manutenção", "Evolução"],
+    "summary": "Aprenda os fundamentos para desenvolver sistemas de longa vida, focando em arquitetura, manutenção e evolução.",
+    "url": "blog/fundamentos-para-desenvolvimento-de-sistemas-de-longa-vida.html"
   }
 ];
