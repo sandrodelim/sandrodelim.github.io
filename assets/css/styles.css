@@ -8,6 +8,32 @@
   --primary-dark: #1a2b4a;
   --border: #d9e2ef;
   --shadow: 0 24px 80px rgba(26, 43, 74, 0.08);
+
+  --color-primary: #1a56db;
+  --color-primary-dark: #1e429f;
+  --color-primary-light: #3b82f6;
+  --color-primary-lighter: #dbeafe;
+  --color-secondary: #0f172a;
+  --color-accent: #0ea5e9;
+  --color-success: #059669;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafc;
+  --color-bg-dark: #0f172a;
+  --color-text: #1e293b;
+  --color-text-light: #64748b;
+  --color-text-muted: #94a3b8;
+  --color-border: #e2e8f0;
+  --color-card-bg: #ffffff;
+  --color-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --color-card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --max-width: 1140px;
 }
 
 [data-theme='dark'] {
@@ -301,6 +327,84 @@ nav.navbar {
   gap: 1.5rem;
 }
 
+/* ============================================
+   ABOUT SECTION
+   ============================================ */
+.about {
+  background: var(--color-bg-alt);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 48px;
+}
+
+.about-card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  padding: 36px 28px;
+  text-align: center;
+  box-shadow: var(--color-card-shadow);
+  transition: var(--transition-base);
+  border: 1px solid var(--color-border);
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--color-card-shadow-hover);
+  border-color: var(--color-primary-lighter);
+}
+
+.about-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--color-primary-lighter), #eff6ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
+
+.about-card h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 12px;
+}
+
+.about-card p {
+  font-size: 0.92rem;
+  color: var(--color-text-light);
+  line-height: 1.7;
+}
+
+.about-summary {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--color-text-light);
+  line-height: 1.8;
+  padding: 24px 32px;
+  background: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--color-primary);
+  box-shadow: var(--color-card-shadow);
+}
+
+.about-summary strong {
+  color: var(--color-secondary);
+}
+/* ============================================
+   END ABOUT SECTION
+   ============================================ */
+
+
 .skills-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
@@ -309,7 +413,6 @@ nav.navbar {
 .certification-card,
 .card,
 .recent-card,
-.about-card,
 .timeline-item {
   background: var(--surface-strong);
   border: 1px solid var(--border);
@@ -318,18 +421,7 @@ nav.navbar {
   box-shadow: var(--shadow);
 }
 
-.about-icon {
-  display: inline-flex;
-  width: 3rem;
-  height: 3rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 1rem;
-  background: rgba(74,144,217,0.12);
-  color: var(--primary-dark);
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
+
 
 .skill-card {
   display: grid;
