@@ -1,6 +1,6 @@
 # Blog profissional estático para GitHub Pages
 
-Este projeto é um site estático profissional para GitHub Pages, criado com HTML, CSS e JavaScript leve. O objetivo é construir autoridade em TI e Análise de Negócios com:
+Este projeto é um site estático profissional para GitHub Pages, criado com HTML, CSS e JavaScript leve. O objetivo é construir autoridade em TI e Análise de Sistemas com:
 
 - Landing page impactante em `/`
 - Blog em `/blog`
@@ -15,6 +15,7 @@ Este projeto é um site estático profissional para GitHub Pages, criado com HTM
 - `blog/index.html`
 - `blog/fundamentos-da-analise-de-negocios.html`
 - `blog/ferramentas-essenciais-analise-de-negocios.html`
+- `blog/fundamentos-para-desenvolvimento-de-sistemas-de-longa-vida.html`
 - `about/index.html`
 - `cv/index.html`
 - `assets/css/styles.css`
